@@ -17,6 +17,5 @@ post('/output') do
   else
     @answer = "Try again!"
   end
-  binding.pry
   erb(:output)
 end
